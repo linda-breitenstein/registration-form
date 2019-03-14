@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <section class="island">
+  <form class="island">
     <div>
       <h1>Want to go to Mars?</h1>
     </div>
@@ -44,27 +44,21 @@
       </div>
       <div class="push">
         <label for="address">Address</label>
-        <input id="address">
+      <textarea  id="address" name="address"></textarea>
       </div>
     </fieldset>
     <fieldset>
         <legend class="italic push">Personal details</legend>
         <div>
           <label for="why">Why do you want to go to Mars?</label>
-          <input id="why">
+        <textarea id="why" name="why"></textarea>
         </div>
     </fieldset>
-    <div>
-      <form>
+    <div class="push text-center">
       <button type="submit">Register for the trip!</button>
-      </form>
     </div>
-    <div>
-      <form>
-        <button type="hidden" name="_subject">Register for the trip!</button>
-      </form>
-    </div>
-  </section>
+    <input type="hidden" name="_subject" value="request to join mission">
+  </form>
 
 </body>
 </html>
