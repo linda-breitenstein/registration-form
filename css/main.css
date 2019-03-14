@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-border-bottom: 1px solid #000;
-padding-top: 1rem;
+  border-bottom: 1px solid #000;
+  padding-top: 1rem;
 }
 
 .btn {
@@ -24,13 +24,14 @@ form {
   border-color: #000;
 }
 
-@media only screen and (max-width: 60px) {
+@media only screen and (min-width: 60em) {
 
-.pad-right {
-  padding: .5rem;
-}
-.pad-left {
-  padding: .5rem;
-}
+  .pad-right {
+    padding: .5rem;
+  }
+
+  .pad-left {
+    padding: .5rem;
+  }
 
 }
