@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+  <section class="island">
+    <div>
+      <h1>Want to go to Mars?</h1>
+    </div>
+    <div>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    </div>
+    <fieldset>
+      <legend class="italic push">Personal details</legend>
+      <div class="push">
+        <label for="name">Name</label>
+        <input id="name">
+      </div>
+      <div class="push">
+        <label for="age">Age</label>
+        <input id="age">
+      </div>
+      <div class="push">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </div>
+      <div class="push">
+        <label for="fitness">Physical fitness</label>
+        <select id="fitness">
+          <option>Super-human</option>
+          <option>Fit as a fiddle</option>
+          <option>Not terribly strong</option>
+          <option>A little couch-potato-y</option>
+        </select>
+      </div>
+      <div class="push">
+        <label for="address">Address</label>
+        <input id="address">
+      </div>
+    </fieldset>
+    <fieldset>
+        <legend class="italic push">Personal details</legend>
+        <div>
+          <label for="why">Why do you want to go to Mars?</label>
+          <input id="why">
+        </div>
+    </fieldset>
+    <div>
+      <form>
+      <button type="submit">Register for the trip!</button>
+      </form>
+    </div>
+    <div>
+      <form>
+        <button type="hidden" name="_subject">Register for the trip!</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
