@@ -2,19 +2,35 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 h1 {
-border-bottom: 2px solid #000;
+border-bottom: 1px solid #000;
+padding-top: 1rem;
 }
 
 .btn {
   color: #fff;
-  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+}
+
+.btn-light {
+  background-color: #000;
+  border-color: #000;
 }
 
 @media only screen and (max-width: 60px) {
 
-.name {
-  padding: 5px;
+.pad-right {
+  padding: .5rem;
+}
+.pad-left {
+  padding: .5rem;
 }
 
 }
