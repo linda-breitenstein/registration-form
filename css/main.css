@@ -19,6 +19,10 @@ form {
   background-color: #fff;
 }
 
+fieldset {
+  margin-bottom: 0;
+}
+
 .btn-light {
   background-color: #000;
   border-color: #000;

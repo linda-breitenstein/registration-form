@@ -12,31 +12,31 @@
 </head>
 <body>
 
-  <form class="island max-length" action="https://formspree.io/brei0012@algonquinlive.com" method="POST">
+  <form class="island max-length pad-t-2" action="https://formspree.io/brei0012@algonquinlive.com" method="POST">
     <div>
       <h1 class="peta">Want to go to Mars?</h1>
     </div>
     <div>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <p class="mega pad-b-1-2">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
-    <fieldset>
+    <fieldset class="push-0">
       <legend class="italic push">Personal details</legend>
       <div class="grid">
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 pad-right">
           <label for="name">Name</label>
-          <input class="pad-right" id="name">
+          <input id="name" name="name">
         </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 pad-left">
           <label for="age">Age</label>
-          <input class="pad-left" id="age">
+          <input id="age">
         </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 pad-right">
           <label for="email">Email</label>
-          <input class="pad-right" type="email" id="email">
+          <input type="email" id="email" required>
         </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 pad-left">
           <label for="fitness">Physical fitness</label>
-          <select class="pad-left" id="fitness">
+          <select id="fitness" name="fitness">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -50,13 +50,13 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend class="italic push">Mission statement</legend>
+      <legend class="italic push-1-2">Mission statement</legend>
       <div>
         <label for="why">Why do you want to go to Mars?</label>
         <textarea id="why" name="why"></textarea>
       </div>
     </fieldset>
-    <div class="push text-center">
+    <div class="push text-center pad-t">
       <button class="btn btn-light" type="submit">Register for the trip!</button>
     </div>
     <input type="hidden" name="Request to join the mission" value="_subject">
